@@ -1,10 +1,10 @@
 # Objective Me
 
-Create a `Person` subclass of NSObject that contains the following properties:
+Create a `Person` subclass of `NSObject` that contains the following properties:
 
 * First Name
 * Last Name
-* Age
+* Age (ex. 20)
 * Academic Status (ex. 'Freshman' or 'Sophomore')
 
 Your person object should have the following methods:
@@ -12,7 +12,7 @@ Your person object should have the following methods:
 `-(NSString *) description`: Should return a string in the following format:
 
 ```
-My name is (first name) (last name) and I am a (Academic Status) at West Virginia University.
+My name is (First Name) (Last Name), I am (Age) years old and I am a (Academic Status) at West Virginia University.
 ```
 
 In your `main.m` file, import your include your `Person.h` class file complete the following:
