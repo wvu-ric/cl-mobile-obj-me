@@ -17,10 +17,10 @@ int main(int argc, const char * argv[]) {
         Person * me = [[Person alloc] init];
         
         // Set the properties of your person object
-        me.firstName = @"David";
-        me.lastName = @"Buch";
-        me.age = 20;
-        me.academicStatus = @"Sophomore";
+        [me setFirstName: @"David"];
+        [me setLastName: @"Buch"];
+        [me setAge: 20];
+        [me setAcademicStatus: @"Sophomore"];
         
         // NSLog the output of description
         NSLog(@"%@", [me description]);
